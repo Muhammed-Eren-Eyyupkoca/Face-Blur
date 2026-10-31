@@ -1,0 +1,21 @@
+# Sanal ortam
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Çıktılar (klasör yapısı .gitkeep ile korunur)
+outputs/*
+!outputs/.gitkeep
+
+# İndirilen modeller
+models/*
+!models/.gitkeep
+
+# Editör / işletim sistemi
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
